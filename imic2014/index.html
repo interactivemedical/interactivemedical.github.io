@@ -10,24 +10,128 @@
     <meta name="author" content="Steve Pieper">
     <link rel="shortcut icon" href="../images/favicon.ico">
 
+    <!-- <link rel="stylesheet" type="text/css" media="screen" href="../stylesheets/stylesheet.css"> -->
 
-    <link rel="stylesheet" type="text/css" media="screen" href="../stylesheets/stylesheet.css">
+    <!-- Bootstrap core CSS -->
+    <link href="../stylesheets/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Custom styles for this page -->
+    <link href="../stylesheets/carousel.css" rel="stylesheet">
 
     <title>Interactive MIC</title>
   </head>
 
   <body>
 
+    <!-- carousel navbar (bootstrap) -->
+      <div class="navbar-wrapper">
+      <div class="container">
+
+        <div class="navbar navbar-inverse navbar-static-top" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">IMIC 2014</a>
+            </div>
+            <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#schedule">Schedule</a></li>
+                <li><a href="#submission">Submission</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Information <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#organizers">People</a></li>
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li class="divider"></li>
+                    <li class="dropdown-header">Nav header</li>
+                    <li><a href="#">Separated link</a></li>
+                    <li><a href="#">One more separated link</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+
     <!-- HEADER -->
     <div id="header_wrap" class="outer">
         <header class="inner">
-          <img src="../images/MICCAI2014-banner-web.jpg" alt="MICCAI 2014, SEP 14-18, Boston" width="990">
-          <!-- <img src="../images/imic2014.png"> -->
-          <h1 id="project_title">Interactive Medical Image Computing (IMIC) Workshop</h1>
-          <h2 id="project_tagline"><a href=http://miccai2014.org/ target="_blank">MICCAI:</a> September 14, 2014 - Boston, USA</h2>
 
         </header>
     </div>
+
+
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container welcome">
+          <!-- hardcode 1170 width to match navbar default -->
+          <img src="../images/MICCAI2014-banner-web.jpg" class="img-responsive" alt="MICCAI 2014, SEP 14-18, Boston" width="1170">
+          <!-- <img src="../images/imic2014.png"> -->
+          <h1 id="project_title">Interactive Medical Image Computing (IMIC) Workshop</h1>
+          <h2 id="project_tagline"><a href=http://miccai2014.org/ target="_blank">MICCAI:</a> September 14, 2014 - Boston, USA</h2>
+    </div>
+
+    <div class="container marketing">
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+
+        <div class="col-lg-4">
+          <img class="img-circle" data-src="../images/divider.svg" alt="~~~~~">
+          <h2>IMIC</h2>
+<p>Interactive systems are widely used in research and clinical practice, yet most scientific venues make it impossible to fully communicate exactly how they work.  IMIC combines live demos, hands-on examples, and scientific publications to support exchange of ideas among a community of like-minded researchers.  IMIC seeks to showcase and disseminate the best examples of dynamic interaction with medical imagery.</p>
+
+        </div><!-- /.col-lg-4 -->
+
+        <div class="col-lg-4">
+          <img class="img-circle" data-src="../images/divider.svg" alt="~~~~~">
+          <h2>Topics</h2>
+<p>Visualization of large multiparametric, multimodal, and/or multisubject imaging data</p>
+<p>Interactive control of image segmentation or registration algorithms</p>
+<p>Software architectures to optimize the use of high-performance computing (e.g. clusters or GPUs)</p>
+<p>Novel interaction or visualization devices such as native 3D displays, head-coupled tracking, hand tracking, gesture detection, custom user input devices and related technologies</p>
+<p>Interactive simulations of body systems, disease processes, and interventions</p>
+<p>Education and training systems that use interactive methods</p>
+<p>Other research that involves interactive computing applied to medical image computing</p>
+        </div><!-- /.col-lg-4 -->
+
+        <div class="col-lg-4">
+          <img class="img-circle" data-src="../images/divider.svg" alt="~~~~~">
+          <h2>Schedule</h2>
+<p>Submission Deadline: June 2, 2014</p>
+<p>Acceptance Notification: July 5, 2014</p>
+<p>Camera Ready Manuscript Required: July 11, 2014</p>
+<p>Workshop: Sunday, September 14, 2014 (location TBA)</p>
+
+        </div><!-- /.col-lg-4 -->
+
+      </div><!-- /.row -->
+
 
 
     <!-- MAIN CONTENT -->
@@ -36,30 +140,6 @@
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
         <h3>
-<a name="welcome-to-imic-2014" class="anchor" href="#welcome-to-imic-2014"><span class="octicon octicon-link"></span></a>Welcome to IMIC 2014</h3>
-
-<p>Interactive systems are widely used in research and clinical practice, yet most scientific venues make it impossible to fully communicate exactly how they work.  IMIC combines live demos, hands-on examples, and scientific publications to support exchange of ideas among a community of like-minded researchers.  IMIC seeks to showcase and disseminate the best examples of dynamic interaction with medical imagery.</p>
-
-<p>Examples of appropriate topics for IMIC:</p>
-
-<ul>
-<li>Visualization of large multiparametric, multimodal, and/or multisubject imaging data</li>
-<li>Interactive control of image segmentation or registration algorithms</li>
-<li>Software architectures to optimize the use of high-performance computing (e.g. clusters or GPUs)</li>
-<li>Novel interaction or visualization devices such as native 3D displays, head-coupled tracking, hand tracking, gesture detection, custom user input devices and related technologies</li>
-<li>Interactive simulations of body systems, disease processes, and interventions</li>
-<li>Education and training systems that use interactive methods</li>
-<li>Other research that involves interactive computing applied to medical image computing</li>
-</ul>
-
-<h3><a name="tentative-schedule" class="anchor" href="#tentative-schedule"><span class="octicon octicon-link"></span></a>Tentative Schedule</h3>
-
-<ul>
-<li>Submission Deadline: June 2, 2014</li>
-<li>Acceptance Notification: July 5, 2014</li>
-<li>Camera Ready Manuscript Required: July 11, 2014</li>
-<li>Workshop: Sunday, September 14, 2014 (location TBA)</li>
-</ul>
 
 <h3><a name="organizers" class="anchor" href="#organizers"><span class="octicon octicon-link"></span></a>Organizing Committee</h3>
 
@@ -76,7 +156,7 @@
 
 </ul>
 
-<h3><a name="submission-process" class="anchor" href="#submission-process"><span class="octicon octicon-link"></span></a>Submission Process</h3>
+<h3><a name="submission" class="anchor" href="#submission"><span class="octicon octicon-link"></span></a>Submission Process</h3>
 
 <p>We will be using an automated submission management system.  The conference management URL will be posted before submission the deadline.</p>
 
@@ -138,6 +218,12 @@ make informed decisions.</p>
         <p>Copyright 2014 Interactive Medical Organization</p>
       </footer>
     </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="../javascripts/bootstrap.min.js"></script>
 
     <!-- google analytics  -->
     <script type="text/javascript">
