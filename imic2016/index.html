@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="Interactive MIC : The Third Interactive Medical Image Computing (IMIC) Workshop for MICCAI 2016" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Steve Pieper">
+    <link rel="shortcut icon" href="../images/favicon.ico">
+
+    <!-- <link rel="stylesheet" type="text/css" media="screen" href="../stylesheets/stylesheet.css"> -->
+
+    <!-- Bootstrap core CSS -->
+    <link href="../stylesheets/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+    <!-- Custom styles for this page -->
+    <link href="../stylesheets/carousel.css" rel="stylesheet">
+
+    <title>Interactive MIC</title>
+  </head>
+
+  <body>
+
+    <!-- carousel navbar (bootstrap) -->
+    <div class="navbar-wrapper">
+      <div class="container">
+
+        <div class="navbar navbar-inverse navbar-static-top" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">IMIC 2016</a>
+            </div>
+            <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#schedule">Schedule</a></li>
+                <li><a href="#submission">Submission</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Information <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#organizers">People</a></li>
+                    <li><a href="#registration">Registration</a></li>
+                    <li><a href="#oral">Oral Presentations</a></li>
+                    <li><a href="#why-imic">Why IMIC</a></li>
+                    <li class="divider"></li>
+                    <li class="dropdown-header">External Links</li>
+                    <li><a href="http://interactivemedical.org">Interactive Medical</a></li>
+                    <li><a href="http://miccai2016.org">MICCAI</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+      <header class="inner">
+      </header>
+    </div>
+
+
+
+    <!-- Marketing messaging and featurettes
+         ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container welcome">
+      <!-- hardcode 1170 width to match navbar default -->
+      <img src="../images/MICCAI2016-banner-web.jpg" class="img-responsive img-rounded" alt="MICCAI 2016, Oct 5-9, Munich" width="1170">
+      <!-- <img src="../images/imic2016.png"> -->
+      <h1 id="project_title">Interactive Medical Image Computing (IMIC) Workshop</h1>
+      <h2 id="project_tagline">Part of <a href=http://miccai2016.org/ target="_blank">MICCAI 2016:</a> October 17-21 - Athens, Greece</h2>
+      <p><strong>The Third Interactive Medical Image Computing (IMIC) Workshop will be held in Athens, on Friday October 21st, in conjunction with MICCAI 2016.  This page includes summary information and links to workshop content.  We look forward to futher events on these topics.</strong></p>
+
+      <p>The workshop format encourages hands-on demonstrations to stimulate interaction between developers and the user community of clinicians, neuroscientists, and biologists. Our focus is on original methods and elegant implementations that establish a human-machine dialog. Evaluation will be based on productivity, accuracy, simplicity, and overall user experience.</p>
+
+      <p>Attendees are encouraged to bring challenging real-world datasets and allow active experimentation with various demo tools on different data.</p>
+
+      <h3>Have a look at 
+        <a href="../imic2014/index.html">IMIC2014</a>
+        and
+        <a href="../imic2015/index.html">IMIC2015</a>
+      </h3>
+
+      <h3><a name="schedule"></a>Tentative Full Schedule of the Workshop</h3>
+      <ul>
+        <li>TBD</li>
+        <!--
+        <li>13:30 Welcome</li>
+        <li>13:35 - 14:50:  5 oral 15 minutes each</li>
+        <ol>
+          <li>13:35 A Multi-Platform Interactive 3D Educational Application for Bronchoscopy & Bronchial Anatomy <br />
+            Tamara Vagg</li>
+
+          <li> 13:50 Intuitive and Smart Editing of Three-Dimensional Geometric Heart Valve Apparatus Models from Cardiac CT Data<br/>
+            F&eacute;lix Lades</li>
+
+          <li>14:05 An immersive virtual reality environment for diagnostic imaging <br/>
+            Franklin King</li>
+
+          <li> 14:20 3D Segmentation using Perceptual Computing <br/>
+            Leo Joskowicz</li>
+
+          <li> 14:35 GraphMIC: Easy Prototyping of Medical Image Computing Applications <br/>
+            Alexander Zehner</li>
+        </ol>
+        <li>14:50 - 16:30 Demo (Coffee break at 15:30)</li>
+        <li>16:30  4 oral 15 minutes each</li>
+        <ol>
+          <li>16:30 Minimally Interactive Placenta Segmentation from Motion Corrupted MRI for Fetal Surgical Planning  <br/>
+            Guotai Wang</li>
+
+          <li>16:45 A Virtual Bronchoscopic Tool to Explore the Impact of Physical Restrictions in Bronchoscopy Planning  <br/>
+            Debora Gil</li>
+
+            <li> 17:00 Shape-Aware Segmentation of Colorectal Polyps in CT Colonography using Surface-Based Front Propagation <br/>
+            Karthik Krishnan</li>
+
+            <li> 17:15 Model-based Catheter Segmentation in MRI-images <br/>
+            Andre Mastmeyer</li>
+        </ol>
+        <li>17:30 Best demo award announcement + Adjourn</li>
+        -->
+      </ul>
+
+    <h3>List of Demos</h3>
+    <ol>
+      <li>TBD<br/>
+      <!--
+      <li>Interactive Deformation of Volume Images for Image Registration<br/>
+
+        Filip Malmberg, Robin Strand,Joel Kullberg</li>
+
+      <li>Multimodal histological image registration using locally rigid transforms<br/>
+
+        Robin Strand </li>
+
+      <li>A Multi-Platform Interactive 3D Educational Application for Bronchoscopy & Bronchial Anatomy <br/>
+
+        Tamara Vagg </li>
+
+      <li>Intuitive and Smart Editing of Three-Dimensional Geometric Heart Valve Apparatus Models from Cardiac CT Data <br/>
+
+        F&eacute;lix Lades, Michael Wels, Stefan Steidl, Michael Suehling </li>
+
+      <li>An implementation example of the deformation method for real-time simulation of biological tissue formed by fibers and fluid<br/>
+
+        Ivan Costa (<a href="https://dl.dropboxusercontent.com/u/1655800/FFM.wmv">demo movie</a>) </li>
+      <li>An immersive virtual reality environment for diagnostic imaging<br/>
+
+        Franklin King, Jayender Jagadeesan, Tina Kapur, Steve Pieper, Andras Lasso, Gabor Fichtinger </li>
+
+      <li>Minimally Interactive Placenta Segmentation from Motion Corrupted MRI for Fetal Surgical Planning<br/>
+
+        Guotai Wang, Maria A. Zuluaga, Rosalind Pratt,Michael Aertsen,Anna L. David, Jan Deprest, Tom Vercauteren, Sebastien Ourselin </li>
+
+      <li>Fast Correction Method for Abdominal Multi-Organ Segmentation Using 2D/3D Free Form Deformation and Posterior Shape Models<br/>
+
+        Waldo Valenzuela, Juan Cerrolaza, Mauricio Reyes, Ronald Summers, Marius Linguraru </li>
+
+      <li>GraphMIC: Easy Prototyping of Medical Image Computing Applications<br/>
+
+        Alexander Zehner, Alexander Eduard Szalo, Christoph Palm </li>
+
+      <li>Early Recognition of Surgeons' Hand Actions from Continuous Surgery Videos<br/>
+
+        Ye Li, Jun Ohya, Toshio Chiba, Rong Xu, Hiromasa Yamashita </li>
+
+      <li>3D Segmentation using Perceptual Computing <br/>
+
+        Moshe Samson, Shlomo Shenzis, Leo Joskowicz </li>
+
+      <li>A Virtual Bronchoscopic Tool to Explore the Impact of Physical Restrictions in Bronchoscopy Planning <br/>
+
+        Agn&eacute;s Borr&agrave;s, Debora Gil, Antoni Rosell, Marta Diez </li>
+
+      <li>Shape-Aware Segmentation of Colorectal Polyps in CT Colonography using Surface-Based Front Propagation <br/>
+
+        Karthik Krishnan </li>
+
+      <li>Model-based Catheter Segmentation in MRI-images <br/>
+
+        Andre Mastmeyer</li>
+      <li>Navigated surgical tools for breast tumor excision using SlicerIGT as an open-source platform <br/>
+
+        Tamas Ungi, Andras Lasso, Gabrielle Gauvin, Caitlin T. Yeo, Padina Pezeshki, Thomas Vaughan, Kaci Carter, John Rudan, C. Jay Engel, Gabor Fichtinger</li>
+      -->
+    </ol>
+
+    </div>
+
+
+
+    <div class="container marketing">
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div href="#home" class="col-lg-4">
+          <img src="../images/divider.svg" alt="~~~~~">
+          <h2>Schedule</h2>
+          <h3>Important Dates</h3>
+          <ul>
+            <li>TBD</li>
+            <!--
+            <li><strike><strong><a href="https://cmt3.research.microsoft.com/IMIC2016">Submission Deadline: June 25, 2016</a></strong> (note there will be <b>No Extensions</b>)</strike></li>
+            <li><strike>Reviewer Deadline: July 16, 2016</strike></li>
+            <li><strike>Author Notification: July 24, 2016</strike></li>
+            <li>Camera Ready Versions: August 5, 2016</li>
+            <li>Workshop: Friday, October 9, 2016</li>
+            -->
+          </ul>
+        </div><!-- /.col-lg-4 -->
+
+        <div href="#topics" class="col-lg-4">
+          <img src="../images/divider.svg" alt="~~~~~">
+          <h2>Topics</h2>
+          <ul>
+            <li>Visualization of large multiparametric, multimodal, and/or multisubject imaging data</li>
+            <li>Interactive control of image segmentation or registration algorithms</li>
+            <li>Software architectures to optimize the use of high-performance computing (e.g. clusters or GPUs)</li>
+            <li>Novel interaction or visualization devices such as native 3D displays, head-coupled tracking, hand tracking, gesture detection, custom user input devices and related technologies</li>
+            <li>Interactive simulations of body systems, disease processes, and interventions</li>
+            <li>Education and training systems that use interactive methods</li>
+            <li>Other research that involves interactive computing applied to medical image computing</li>
+          </ul>
+        </div><!-- /.col-lg-4 -->
+
+        <div href="#schedule" class="col-lg-4">
+          <img src="../images/divider.svg" alt="~~~~~">
+          <h2>IMIC</h2>
+          <p>Interactive systems are widely used in research and clinical practice, yet most scientific venues make it impossible to fully communicate exactly how they work.  IMIC combines live demos, hands-on examples, and scientific publications to support exchange of ideas among a community of like-minded researchers.  IMIC seeks to showcase and disseminate the best examples of dynamic interaction with medical imagery.</p>
+        </div><!-- /.col-lg-4 -->
+
+      </div><!-- /.row -->
+
+     <h3>Workshop Location</h3>
+     <p> TBD
+
+     <h3>Best Demo Prizes</h3>
+     <ol>
+       <li>TBD</li>
+     </ol>
+
+      <!-- MAIN CONTENT -->
+
+
+      <div id="main_content_wrap" class="outer">
+        <section id="main_content" class="inner">
+          <h3>
+            <h3><a name="organizers" class="anchor" href="#organizers"><span class="octicon octicon-link"></span></a>Organizing Committee</h3>
+            <ul>
+              <li> <a href="http://www.ee.bgu.ac.il/~rrtammy/">Tammy Riklin Raviv</a>, The Department of Electrical and Computer Engineering, Ben-Gurion University </li>
+              <li> <a href="https://www.spl.harvard.edu/pages/People/pieper">Steve Pieper</a>, Isomics, Inc., Surgical Planning Lab</li>
+              <li> <a href="http://gaoyi.github.io/">Yi Gao</a>, Departments of Biomedical Informatics, Computer Science, and Applied Mathematics. Stony Brook University</li>
+              <li> <a href="http://bmenze.de/">Bjoern Menze</a>, TU Munchen</li>
+              <li> <a href="https://www.spl.harvard.edu/pages/People/tkapur/">Tina Kapur</a>, Brigham and Women's Hospital, Surgical Planning Lab</li>
+            </ul>
+
+            <!-- <h3><a name="referees" class="anchor" href="#referees"><span class="octicon octicon-link"></span></a>On-site referees for best paper prize</h3> -->
+
+            <h3><a name="programcommittee" class="anchor" href="#programcommittee"><span class="octicon octicon-link"></span></a>Program Committee</h3>
+            <ul>
+              <li> TBD </li>
+            </ul>
+
+            <h3><a name="submission" class="anchor" href="#submission"><span class="octicon octicon-link"></span></a>Paper <strong><a href="https://cmt3.research.microsoft.com/IMIC2016">Submission Process</a></strong></h3>
+
+            <p></p><strong><a href="https://cmt3.research.microsoft.com/IMIC2016">Submission site: https://cmt3.research.microsoft.com/IMIC2016</a></strong></p>
+
+<p>Submissions will be carefully peer-reviewed by a selected group of researchers with extensive experience in IMIC.
+  Workshop presentations are expected to represent a cross section of the best available research in this area.
+  As this is an emerging field that has not been historically well-covered in the MICCAI literature,
+  accepted submissions will set a precedent that can be expected to be widely discussed.</p>
+
+<p>Note that the online submission system allows upload of supplementary files, so you may include a video, links to project information or online content, and/or a description of your live demo.</p>
+
+<p>Materials from the workshop will be collated and made available via the <a href="http://InteractiveMedical.org">InteractiveMedical.org</a> web site as a record of the event and a resource to the field.</p>
+
+<h6>Paper format</h6>
+<ul>
+
+  <li> Papers should be formatted using the
+    <a href="http://www.springer.com/computer/lncs?SGWID=0-164-6-793341-0" title="http://www.springer.com/computer/lncs?SGWID=0-164-6-793341-0" rel="nofollow"><font color="#0066cc">LNCS style files</font></a>. </li>
+
+  <li> Papers should have 4-8 pages, but shorter papers accompanied by videos or live demonstrations will also be given full consideration.</li>
+
+  <li> Submissions with video and/or proposing live demonstration will be given higher priority for oral presentation.</li>
+
+</ul>
+
+<h6>Parallel Submissions</h6>
+<p>Submitted work has to be original, not identically submitted in parallel to other conferences or workshops. We accept papers that provide further detail on algorithms also validated in the MICCAI challenge workshops. We ask authors to reference the challenge contribution explicitly.<br /></p>
+
+<h6>Review process</h6>
+<p>The review of the papers will be double-blind to the extent physically possible.
+  Submissions should be anonymous according to the MICCAI guidelines.<br /></p>
+
+<h6>Previous MICCAI submissions</h6>
+<p>If desired authors can upload the MICCAI reviews and rebuttal to be considered by the workshop chairs.<br /></p>
+
+<h6>Patent disclosure policy</h6>
+<p>The purpose of the workshop is to exchange ideas and methods to advance the state of medical care. Attendees
+  of the workshop and readers of the proceedings are expected to be able to implement and use the presented methods
+  in their own work.
+  <em>Any restrictions on the usability of presented methods,
+    whether for commercial or for non-commercial applications, must be disclosed.</em>
+  <br /><br />
+  This information should be included in a separate section at the end of text in the final ('camera-ready')
+  version of the manuscript, and it will be printed in the proceedings in order to help your readers to
+  make informed decisions.</p>
+
+<h3>
+  <a name="why-imic" class="anchor" href="#why-imic"><span class="octicon octicon-link"></span></a>Why IMIC?</h3>
+
+<p>The Medical Image Computing literature traditionally favors fully-automated analysis algorithms that offer the potential high throughput, objective, and reproducible results for large data collections.  However fully-automated techniques are not able to handle many time-critical tasks, nor can they handle tasks that require contextual or general knowledge not readily available in the images alone.  This workshop addresses the topic of human interaction with algorithms for initialization, steering, quality control, and visualization for problem domains such as segmentation and registration, object detection, tracking.  The workshop format encourages hands-on demonstrations to stimulate interaction between developers and the user community of clinicians, neuroscientists, and biologists.  Attendees are encouraged to bring challenging real-world datasets and allow active experimentation with various tools on different data.  In the call for participation in the workshop we ask for extended abstracts or short papers that are accompanied by live demos.  Our focus will be on original methods and elegant implementations that establish a human-machine dialog.  Evaluation will be based on productivity, accuracy, simplicity, and overall user experience.</p>
+</section>
+</div>
+
+<!-- FOOTER  -->
+<div id="footer_wrap" class="outer">
+  <footer class="inner">
+    <p>IMIC 2016 is a project of the <a href="http://interactivemedical.org">Interactive Medical Organization</a></p>
+    <p>Copyright 2016 Interactive Medical Organization</p>
+  </footer>
+</div>
+
+<!-- Bootstrap core JavaScript
+     ================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="../javascripts/bootstrap.min.js"></script>
+
+<!-- google analytics  -->
+<script type="text/javascript">
+  var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+  document.write(unescape(
+  "%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+  try {
+  var pageTracker = _gat._getTracker("UA-49071927-1");
+  pageTracker._trackPageview();
+  } catch(err) {}
+</script>
+
+</body>
+</html>
